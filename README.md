@@ -127,26 +127,13 @@ GET /api/articles/search?query=texte
 
 ---
 
-## Problème résolu
-
-Un bug lié à `last_insert_rowid()` avec `exec` empêchait la récupération correcte de l’ID après insertion.
-
-Solution :
-
-* utilisation de `stmt.run`
-* construction directe de l’objet retourné sans requête supplémentaire
-
 ---
 
 ## Auteur
 
-Ton nom
+Van Zetoundi
 
 ```
 
 ---
 
-Si tu veux, je peux aussi te faire :
-- une version **plus “pro GitHub” (badges, contributions, licence)**  
-- ou une version **orientée recruteur / portfolio (très impactante)**
-```
