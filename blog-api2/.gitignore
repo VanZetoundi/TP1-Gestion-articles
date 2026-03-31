@@ -1,0 +1,19 @@
+# Dependances Node.js (lourd, se reinstalle avec npm install)
+node_modules/
+
+# Variables d'environnement (contient des donnees sensibles)
+.env
+
+# Fichier de base de donnees SQLite (donnees locales)
+*.db
+*.sqlite
+
+# Fichiers systeme macOS
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+
+# Cache
+.npm
